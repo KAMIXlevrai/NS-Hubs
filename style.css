@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  .download-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .download-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+
+  .download-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    position: sticky;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+  }
+  
+  .navbar h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .navbar span {
+    color: gray;
+  }
+  
+  .nav-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .nav-buttons button.active,
+  .nav-buttons button:hover {
+    background: white;
+    color: black;
+  }
+  
+  .page {
+    padding: 40px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .search-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .search-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .search-section span {
+    color: gray;
+  }
+  
+  .search-section input {
+    width: 70%;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .results {
+    background: rgba(255,255,255,0.05);
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .result-item {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 15px;
+  }
+  
+  .result-item:last-child {
+    border-bottom: none;
+  }
+  
+  .download-btn {
+    padding: 8px 16px;
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: 22px;
+  }
+  
+  .software-list {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .software-item {
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  
